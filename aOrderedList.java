@@ -1,13 +1,12 @@
 /**
-* Represents an ordered list that stores elements of type T. 
-*
-* CSC 1351 Programming Project No 1
-7
-* Section 2
-*
-* @author Andrew Dang
-* @since March 17, 2024
-*/
+ * Represents an ordered list that stores elements of type T. 
+ *
+ * CSC 1351 Programming Project No 1
+ * Section 2
+ *
+ * @author Andrew Dang
+ * @since March 17, 2024
+ */
 package Prog01_aOrderedList;
 
 import java.util.Arrays; // Imports the Ararys class
@@ -67,7 +66,7 @@ public class aOrderedList <T> {
 			Arrays.sort(oList, 0 , size());
 	}
 	
-	/*
+   /**
 	* Removes the element last returned by the next() method. 
 	*
 	* CSC 1351 Programming Project No 1
@@ -109,7 +108,7 @@ public class aOrderedList <T> {
 		}
 	}
 	
-	/**
+   /**
 	* Returns an element at a specified index in the list. 
 	*
 	* CSC 1351 Programming Project No 1

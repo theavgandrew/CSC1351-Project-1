@@ -7,7 +7,9 @@
  * @author Andrew Dang
  * @since March 17, 2024
  */
+
 package Prog01_aOrderedList; 
+
 public class Car implements Comparable<Car> {
 	// The make of the car. 
 	private String make; 
@@ -67,12 +69,12 @@ public class Car implements Comparable<Car> {
 	}
 	
    /**
-	* < Returns the value of the class attribute price.
+	* Returns the value of the class attribute price.
 	*
 	* CSC 1351 Programming Project No 1
 	* Section 2
 	*
-	* @return The price of the car. 
+	* @return The price oßf the car. 
 	* @author Andrew Dang
 	* @since March 17, 2024
 	*/
